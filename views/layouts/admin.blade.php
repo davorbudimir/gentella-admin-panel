@@ -99,16 +99,6 @@
                     </li>
                   </ul>
                 </li>
-                <li><a><i class="fa fa-edit"></i> Store Products <span class="fa fa-chevron-down"></span></a>
-                  <ul class="nav child_menu" style="display: none">
-                    <li><a href="{{ URL::route('getAdminProducts') }}">All Products</a></li>
-                    <li><a href="{{ URL::route('createProductForm2') }}">Create Product</a></li>
-                    <li><a href="{{ URL::route('getAdminCategories') }}">Category Manager</a></li>
-                    <li><a href="{{ URL::route('getAdminSubcategories') }}">Subcategory Manager</a></li>
-                    <li><a href="{{ URL::route('getAdminBrands') }}">Brand Manager</a></li>
-                    <li><a href="{{ URL::route('getAdminParameters') }}">Parameter Manager</a></li>
-                  </ul>
-                </li>
                 <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
                   <ul class="nav child_menu" style="display: none">
                     <li><a href="{{ URL::route('form') }}">General Form</a>
